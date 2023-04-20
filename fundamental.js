@@ -6,14 +6,14 @@ season = 'winter';
 //2. conditions
 //6 basic conditions: >,<, ===, !==, <=, >=
 //multiple conditions: &&, ||
-if(fatherName === 'Mr. X' || season === 'rainy'){
+if (fatherName === 'Mr. X' || season === 'rainy') {
 
 }
-else if(fatherName === 'Mr. Y'){
+else if (fatherName === 'Mr. Y') {
 
 }
-else{
-     
+else {
+
 }
 
 //3. array declare
@@ -22,13 +22,13 @@ const numbers = [32, 53, 23, 64, 98];
 numbers[0] = 45;
 
 // 4. for loop
-for (let i = 0; i < numbers.length; i++){
+for (let i = 0; i < numbers.length; i++) {
      const number = numbers[i];
      console.log(number);
 }
 
 //5. function
-function multiply(num1, num2){
+function multiply(num1, num2) {
      const result = num1 * num2;
      return result
 }

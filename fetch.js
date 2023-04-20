@@ -55,7 +55,7 @@ const products = [
      { name: 'camera', price: 3200, brand: 'Canon', color: 'gray' }
 ];
 
-const newProduct = {name: 'webcam', price: 3400, brand:'Lal' };
+const newProduct = { name: 'webcam', price: 3400, brand: 'Lal' };
 
 //copy product array and then add newProduct
 

@@ -7,7 +7,7 @@ const products = [
 ];
 
 //1. map
-const brands = products.map( product => product.brand);
+const brands = products.map(product => product.brand);
 // console.log(brands);
 
 const prices = products.map(product => product.price);

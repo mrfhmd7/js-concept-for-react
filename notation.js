@@ -3,7 +3,7 @@ const person = {
      profession: 'Traffic Surgeon',
      age: 35,
      25: 'Summer',
-     'son-name' : 'Jack',
+     'son-name': 'Jack',
      address: 'New Street'
 }
 

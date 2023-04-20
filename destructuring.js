@@ -9,19 +9,19 @@ const numbers = [23, 53];
 const [x, y] = numbers;
 console.log(x, y);
 
-function boxify (num1, num2){
+function boxify(num1, num2) {
      const nums = [num1, num2];
      return nums;
 }
 
-const [first, second ] = boxify(34, 54);
+const [first, second] = boxify(34, 54);
 
 // console.log(boxify(34, 54));
 
 //2. object destructuring
 
-const { name, age} = {name: 'Mr. X', age: 18};
-const { id, salary} = {id: 1, name: 'Mr. Y', salary: 2500, age: 22};
+const { name, age } = { name: 'Mr. X', age: 18 };
+const { id, salary } = { id: 1, name: 'Mr. Y', salary: 2500, age: 22 };
 
 const employee = {
      name: 'Mr. X',
@@ -44,4 +44,4 @@ const employee = {
 
 const { device, ide } = employee;
 const { weight, address } = employee?.specification;
-const {brand} = employee?.specification?.watch;
+const { brand } = employee?.specification?.watch;

@@ -62,3 +62,24 @@ isActive || hideUser();
 
 // toggle boolean
 isActive = !isActive; // negation
+
+const x = 50;
+const y = 80;
+const obj = {
+     x: x,
+     y: y
+};
+
+//shortcut
+
+const obj1 = { x, y };
+
+const name = 'Mr. X';
+const address = 'Dhaka';
+
+const details = {
+     name: name,
+     address: address
+};
+
+const details1 = { name, address };
